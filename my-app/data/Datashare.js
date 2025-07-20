@@ -1,0 +1,26 @@
+const Datashare = [
+  { ID: "NVDA" },
+  { ID: "AAPL" },
+  { ID: "MSFT" },
+  { ID: "GOOGL" },
+  { ID: "TSLA" },
+  { ID: "AVGO" },
+  { ID: "TSM" },
+  { ID: "ASML" },
+  { ID: "QQQ" },
+  { ID: "BRK.B" },
+  // { ID: "OANDA:XAUUSD" },
+  { ID: "AMZN" },
+  { ID: "META" },
+  { ID: "JEPQ" },
+  { ID: "JPM" },
+  { ID: "V" },
+  { ID: "ISRG" },
+  { ID: "LLY" },
+  { ID: "BTC" },
+  { ID: "BITSTAMP:BTCUSD" },
+  { ID: "CRYPTO:ETHUSD" },
+  { ID: "CRYPTOCAP:SOL" },
+];
+
+export default Datashare;
