@@ -9,6 +9,7 @@ import PageETF from "./Component/PageETF";
 import PageGole from "./Component/PageGold";
 import PageCrypo from "./Component/PageCrypo";
 import Pageข่าว from "./Component/Pageข่าว";
+import ProductContent from "./Component/ProductContent";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
                 <Route path="/Gold" element={<PageGole />} />
                 <Route path="/Crypto" element={<PageCrypo />} />
                 <Route path="/ข่าว" element={<Pageข่าว />} />
+                <Route path="/DataContent/:id" element={<ProductContent />} />
               </Routes>
             </div>
           </div>
