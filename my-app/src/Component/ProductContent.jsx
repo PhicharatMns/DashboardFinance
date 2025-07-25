@@ -10,7 +10,7 @@ export default function ProductContent() {
   if (!product) return <p>not page</p>;
 
   return (
-    <div className="h-full py-5 p-4">
+    <div className="h-screen py-5 p-4">
       <div className="max-w-[1500px] mx-auto">
         <div className="text-white p-4 ">
           <h1 className="text-2xl font-bold mb-4">{product.title}</h1>

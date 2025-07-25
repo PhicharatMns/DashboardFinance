@@ -44,7 +44,7 @@ export default function Navbar() {
             placeholder="ค้นหา..."
           />
           <div className="border border-purple-500 p-1 px-2 rounded-xl cursor-pointer">
-            <p>Login</p>
+            <Link  to={'/Login'}>Login</Link>
           </div>
 
           {/* Menu toggle on mobile */}

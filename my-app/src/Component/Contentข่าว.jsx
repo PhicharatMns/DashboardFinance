@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Contentข่าว() {
   return (
-    <div>
+    <div className="">
       {DataContent.map((event, index) => (
         <div className="p-2" key={index}>
           {/* <Link to={`/DataContent/${encodeURIComponent(event.text)}`}> */}
@@ -11,7 +11,7 @@ export default function Contentข่าว() {
             <div className="border hover:shadow-md p-3 rounded">
               <div className="flex">
                 <img
-                  className="w-60 h-40 object-cover"
+                  className="w-60 h-50 object-cover"
                   src={event.Image}
                   alt={event.title}
                 />
