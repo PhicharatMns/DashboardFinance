@@ -1,0 +1,66 @@
+[
+  {
+    "ID": "NVDA"
+  },
+  {
+    "ID": "AAPL"
+  },
+  {
+    "ID": "MSFT"
+  },
+  {
+    "ID": "GOOGL"
+  },
+  {
+    "ID": "TSLA"
+  },
+  {
+    "ID": "AVGO"
+  },
+  {
+    "ID": "TSM"
+  },
+  {
+    "ID": "ASML"
+  },
+  {
+    "ID": "QQQ"
+  },
+  {
+    "ID": "BRK.B"
+  },
+  {
+    "ID": "AMZN"
+  },
+  {
+    "ID": "META"
+  },
+  {
+    "ID": "JEPQ"
+  },
+  {
+    "ID": "JPM"
+  },
+  {
+    "ID": "V"
+  },
+  {
+    "ID": "ISRG"
+  },
+  {
+    "ID": "LLY"
+  },
+  {
+    "ID": "BTC",
+    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
+  },
+  {
+    "ID": "ETH"
+  },
+  {
+    "ID": "SOL"
+  },
+  {
+    "ID": "GOLD"
+  }
+]

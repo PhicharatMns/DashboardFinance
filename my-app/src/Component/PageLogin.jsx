@@ -5,14 +5,14 @@ import { useNavigate } from "react-router-dom"; //ใช้สําหรับ
 export default function PageLogin() {
   const [Email, setEmail] = useState("Beer");
   const [Password, setPassword] = useState("12345");
-  const navigate = useNavigate(); 
+  const navigate = useNavigate(); //ต้องดึง useNavigate มาใช้
   const [error, setError] = useState("");
 
   const check = () => {
     if (Email === "Beer" && Password === "12345") {
-      navigate("/");
+      navigate("/Dashboar");
     } else {
-      setError('ไม่ผ่านระบบ');
+      setError("ไม่ผ่านระบบ");
     }
   };
 
@@ -49,7 +49,7 @@ export default function PageLogin() {
             </div>
             <button
               onClick={check}
-              className="w-85 rounded-xl h-9 pl-2 mt-5 bg-purple-500 font-bold"
+              className="w-85 rounded-xl h-9 pl-2 mt-5 bg-purple-500 font-bold cursor-pointer"
             >
               Login
             </button>

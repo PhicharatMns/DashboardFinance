@@ -11,6 +11,7 @@ import PageCrypo from "./Component/PageCrypo";
 import Pageข่าว from "./Component/Pageข่าว";
 import ProductContent from "./Component/ProductContent";
 import PageLogin from "./Component/PageLogin";
+import Dashboar from "./Component/Dashboar";
 
 export default function App() {
   return (
@@ -33,7 +34,8 @@ export default function App() {
                 <Route path="/Crypto" element={<PageCrypo />} />
                 <Route path="/ข่าว" element={<Pageข่าว />} />
                 <Route path="/DataContent/:id" element={<ProductContent />} />
-                <Route path="/Login" element={<PageLogin/>}/>
+                <Route path="/Login" element={<PageLogin />} />
+                <Route path="/Dashboar" element={<Dashboar />} />
               </Routes>
             </div>
           </div>

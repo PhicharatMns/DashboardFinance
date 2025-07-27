@@ -6,7 +6,7 @@ export default function Navbar() {
   const [Menuonclick, setMenuonclick] = useState(false);
 
   return (
-    <div className="relative z-30">
+    <div className="relative z-30 border-b border-purple-500">
       <div className="w-full lg:max-w-screen-2xl justify-between mx-auto flex items-center z-20 py-1 px-4">
         {/* Logo + Navbar */}
         <div className="flex gap-5 items-center">
