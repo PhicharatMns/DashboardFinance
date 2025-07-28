@@ -1,66 +1,127 @@
 [
   {
-    "ID": "NVDA"
+    "ID": "NVDA",
+    "Image": "https://s2.coinmarketcap.com/static/img/coins/200x200/33890.png",
+    "price": "173.50",
+    "percentage": "-0.14"
   },
   {
-    "ID": "AAPL"
+    "ID": "AAPL",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkU1OcNpt9z9aAd1SlP_zTdPJbY4V6xh-NKA&s",
+    "price": "213.88",
+    "percentage": "0.6"
   },
   {
-    "ID": "MSFT"
+    "ID": "MSFT",
+    "Image": "https://eodhistoricaldata.com/img/logos/US/MSFT.png",
+    "price": "513.71",
+    "percentage": "0.55"
   },
   {
-    "ID": "GOOGL"
+    "ID": "GOOGL",
+    "Image": "https://i-invdn-com.investing.com/news/LYNXMPEE6M1KW_M.jpg",
+    "price": "194.08",
+    "percentage": "-0.46"
   },
   {
-    "ID": "TSLA"
+    "ID": "TSLA",
+    "Image": "https://s3-symbol-logo.tradingview.com/tesla--600.png",
+    "price": "316.06",
+    "percentage": "3.52"
   },
   {
-    "ID": "AVGO"
+    "ID": "AVGO",
+    "Image": "https://s3-symbol-logo.tradingview.com/broadcom--600.png",
+    "price": "290.18",
+    "percentage": "0.51"
   },
   {
-    "ID": "TSM"
+    "ID": "TSM",
+    "Image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/63/Tsmc.svg/1200px-Tsmc.svg.png",
+    "price": "245.60",
+    "percentage": "1.66"
   },
   {
-    "ID": "ASML"
+    "ID": "ASML",
+    "Image": "https://yt3.googleusercontent.com/z7mx49s7dj4PjDEdI6UdIQIGf4HtD0_2E-oSjGQWBMZI1zIRsrdMQVpLmzzAEk3DQCSKzpFI2A=s900-c-k-c0x00ffffff-no-rj",
+    "price": "711.25",
+    "percentage": "-1.91"
   },
   {
-    "ID": "QQQ"
+    "ID": "QQQ",
+    "Image": "https://companieslogo.com/img/orig/invesco-qqq-6e7735b4.png?t=1720244494",
+    "price": "36575",
+    "percentage": "1.32"
   },
   {
-    "ID": "BRK.B"
+    "ID": "BRK.B",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdInR6bt9NkGw62gLuCBdlj_iqgqFyNEmHsg&s",
+    "price": "484.07",
+    "percentage": "0.72"
   },
   {
-    "ID": "AMZN"
+    "ID": "AMZN",
+    "Image": "https://m.media-amazon.com/images/I/31epF-8N9LL.png",
+    "price": "231.44",
+    "percentage": "-0.34"
   },
   {
-    "ID": "META"
+    "ID": "META",
+    "Image": "https://www.techtalkthai.com/wp-content/uploads/2021/10/meta-banner-2021.png",
+    "price": "712.68",
+    "percentage": "-0.30"
   },
   {
-    "ID": "JEPQ"
+    "ID": "JEPQ",
+    "Image": "https://logos.stocktwits-cdn.com/JEPQ.png",
+    "price": "55.08",
+    "percentage": "0.11"
   },
   {
-    "ID": "JPM"
+    "ID": "JPM",
+    "Image": "https://play-lh.googleusercontent.com/Gn63lcwuTLoKg9QSoMha6xxqdUM33R6u3zKmgYbG6j9POfkKBLfkjoBuRXzZjtD1wUg",
+    "price": "298.62",
+    "percentage": "-0.70"
   },
   {
-    "ID": "V"
+    "ID": "V",
+    "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3V1gApW44x8AYf4lZB7KVxWjMupExtAX2OA&s",
+    "price": "495.86",
+    "percentage": "1.48"
   },
   {
-    "ID": "ISRG"
+    "ID": "ISRG",
+    "Image": "https://static.stocktitan.net/company-logo/isrg-lg.png",
+    "price": "495.86",
+    "percentage": "1.48"
   },
   {
-    "ID": "LLY"
+    "ID": "LLY",
+    "Image": "https://s3-symbol-logo.tradingview.com/eli-lilly--600.png",
+    "price": "812.69",
+    "percentage": "0.90"
   },
   {
     "ID": "BTC",
-    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png"
+    "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
+    "price": "118,750"
   },
   {
-    "ID": "ETH"
+    "ID": "ETH",
+    "Image": "",
+    "price": "3,906.25",
+    "percentage": "-1"
   },
   {
-    "ID": "SOL"
+    "ID": "SOL",
+    "Image": "",
+    "price": "187.5",
+    "percentage": "-1"
   },
   {
-    "ID": "GOLD"
+    "ID": "GOLD",
+    "Image": "",
+    "price": "3340",
+    "percentage": "0.13"
   }
 ]

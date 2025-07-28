@@ -19,8 +19,19 @@ export default function Dashboar() {
                 }`}
               >
                 <div className="flex justify-between">
-                  <p className="font-black text-sm"> {event.ID}</p>
-                  <img src={event.Image} className="w-12 pl-5" alt="" />
+                  <img src={event.Image} className="w-10 pb-5" alt="" />
+                  <p
+                    className={`${
+                      event.percentage > 0 ? "text-green-500" : "text-red-500"
+                    }`}
+                  >
+                    {event.percentage}
+                  </p>
+                </div>
+                {/* price */}
+                <div className="">
+                  <p className="font-black text-sm pb-3"> {event.ID}</p>
+                  <p className="font-bold">${event.price}</p>
                 </div>
               </div>
             );
