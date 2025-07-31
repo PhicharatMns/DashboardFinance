@@ -104,23 +104,24 @@
   {
     "ID": "BTC",
     "Image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1200px-Bitcoin.svg.png",
-    "price": "118,750"
+    "price": "118,750",
+    "percentage": "1.2"
   },
   {
     "ID": "ETH",
-    "Image": "",
+    "Image": "https://static1.tokenterminal.com//ethereum/logo.png?logo_hash=fd8f54cab23f8f4980041f4e74607cac0c7ab880",
     "price": "3,906.25",
     "percentage": "-1"
   },
   {
     "ID": "SOL",
-    "Image": "",
+    "Image": "https://s3.coinmarketcap.com/static-gravity/image/5cc0b99a8dd84fbfa4e150d84b5531f2.png",
     "price": "187.5",
     "percentage": "-1"
   },
   {
     "ID": "GOLD",
-    "Image": "",
+    "Image": "https://mining.com.au/wp-content/uploads/2024/07/Gold-iStock-scaled-e1719985595288.jpg",
     "price": "3340",
     "percentage": "0.13"
   }

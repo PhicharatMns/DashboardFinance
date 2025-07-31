@@ -70,11 +70,16 @@ import { AiOutlineCaretRight } from "react-icons/ai";
 import { AiOutlineAreaChart } from "react-icons/ai";
 import { AiOutlineControl } from "react-icons/ai";
 import { AiOutlineSketch } from "react-icons/ai";
+import { Link } from "react-router-dom";
 export default function Sizebar() {
   const datasizebar = [
-    { text: "หุ้นในพอต", icons: AiOutlineSketch },
-    { text: "กราฟเเละกําไร", icons: AiOutlineAreaChart },
-    { text: "จัดพอตใหม่", icons: AiOutlineControl },
+    { text: "หุ้นในพอต", icons: AiOutlineSketch, Link: "Dashboar" },
+    {
+      text: "กราฟเเละกําไร",
+      icons: AiOutlineAreaChart,
+      Link: "Pageกราฟเเละกําไร",
+    },
+    { text: "จัดพอตใหม่", icons: AiOutlineControl, Link: "Pageจัดพอตใหม่" },
   ];
 
   const [onClickSizebar, setonClickSizebar] = useState(true);
@@ -94,7 +99,7 @@ export default function Sizebar() {
         >
           Size bar
         </span>
-        <button className=' relative'>
+        <button className=" relative">
           <AiOutlineCaretRight
             onClick={() => setonClickSizebar(!onClickSizebar)}
             size={30}
@@ -117,7 +122,7 @@ export default function Sizebar() {
                   onClickSizebar ? "opacity-100 w-auto" : "opacity-0 w-0"
                 }`}
               >
-                {event.text}
+                <Link to={`/${event.Link}`}>${event.text}</Link>
               </span>
             </div>
           );

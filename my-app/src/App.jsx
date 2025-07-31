@@ -12,6 +12,7 @@ import Pageข่าว from "./Component/Pageข่าว";
 import ProductContent from "./Component/ProductContent";
 import PageLogin from "./Component/PageLogin";
 import Dashboar from "./Component/Dashboar";
+import Pageกราฟเเละกําไร from "./Pageกราฟเเละกําไร";
 
 export default function App() {
   return (
@@ -36,6 +37,10 @@ export default function App() {
                 <Route path="/DataContent/:id" element={<ProductContent />} />
                 <Route path="/Login" element={<PageLogin />} />
                 <Route path="/Dashboar" element={<Dashboar />} />
+                <Route
+                  path="/Pageกราฟเเละกําไร"
+                  element={<Pageกราฟเเละกําไร />}
+                />
               </Routes>
             </div>
           </div>

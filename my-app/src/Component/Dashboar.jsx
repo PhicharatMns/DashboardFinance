@@ -5,7 +5,7 @@ export default function Dashboar() {
   return (
     <div className="flex">
       <Sizebar />
-      <div className=" p-5 w-full">
+      <div className="p-5">
         <div className="grid lg:grid-cols-8 grid-cols-1 gap-5 p-5 lg:w-400 mx-auto  ">
           {Mydbpor.map((event, index) => {
             return (
@@ -19,13 +19,17 @@ export default function Dashboar() {
                 }`}
               >
                 <div className="flex justify-between">
-                  <img src={event.Image} className="w-10 pb-5" alt="" />
+                  <img
+                    src={event.Image}
+                    className="w-10 h-10 rounded-3xl"
+                    alt=""
+                  />
                   <p
                     className={`${
                       event.percentage > 0 ? "text-green-500" : "text-red-500"
                     }`}
                   >
-                    {event.percentage}
+                    {event.percentage} $
                   </p>
                 </div>
                 {/* price */}
