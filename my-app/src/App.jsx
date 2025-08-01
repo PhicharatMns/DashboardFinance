@@ -12,7 +12,7 @@ import Pageข่าว from "./Component/Pageข่าว";
 import ProductContent from "./Component/ProductContent";
 import PageLogin from "./Component/PageLogin";
 import Dashboar from "./Component/Dashboar";
-import Pageกราฟเเละกําไร from "./Pageกราฟเเละกําไร";
+import Pageกราฟเเละกําไร from "./Component/Pageกราฟเเละกําไร";
 
 export default function App() {
   return (

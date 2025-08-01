@@ -122,7 +122,7 @@ export default function Sizebar() {
                   onClickSizebar ? "opacity-100 w-auto" : "opacity-0 w-0"
                 }`}
               >
-                <Link to={`/${event.Link}`}>${event.text}</Link>
+                <Link to={`/${event.Link}`}>{event.text}</Link>
               </span>
             </div>
           );
