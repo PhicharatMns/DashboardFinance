@@ -12,6 +12,8 @@ import {
 } from "chart.js";
 import { Doughnut, Line } from "react-chartjs-2";
 import { DoughnutChart } from "./DoughnitChart";
+  import { Areachart } from "./Areachart";
+
 // import faker from "faker";
 
 ChartJS.register(
@@ -105,10 +107,19 @@ export default function Pageกราฟเเละกําไร() {
               return (
                 <div key={index} className="border p-2 rounded-lg">
                   <div className="font-bold">{label}</div>
-                  <div className={`${value < 0 ? 'text-red-500' : 'text-green-500'}`}>{value}%</div>
+                  <div
+                    className={`${
+                      value < 0 ? "text-red-500" : "text-green-500"
+                    }`}
+                  >
+                    {value}%
+                  </div>
                 </div>
               );
             })}
+          </div>
+          <div>
+            <Areachart />
           </div>
         </div>
       </div>
