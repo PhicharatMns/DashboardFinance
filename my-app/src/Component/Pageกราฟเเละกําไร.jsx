@@ -12,7 +12,7 @@ import {
 } from "chart.js";
 import { Doughnut, Line } from "react-chartjs-2";
 import { DoughnutChart } from "./DoughnitChart";
-  import { Areachart } from "./Areachart";
+
 
 // import faker from "faker";
 
@@ -118,9 +118,7 @@ export default function Pageกราฟเเละกําไร() {
               );
             })}
           </div>
-          <div>
-            <Areachart />
-          </div>
+
         </div>
       </div>
     </div>

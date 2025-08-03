@@ -79,7 +79,7 @@ export default function Sizebar() {
       icons: AiOutlineAreaChart,
       Link: "Pageกราฟเเละกําไร",
     },
-    { text: "จัดพอตใหม่", icons: AiOutlineControl, Link: "Pageจัดพอตใหม่" },
+    { text: "จัดพอตใหม่", icons: AiOutlineControl, Link: "Pageจัดพอตnew" },
   ];
 
   const [onClickSizebar, setonClickSizebar] = useState(true);
