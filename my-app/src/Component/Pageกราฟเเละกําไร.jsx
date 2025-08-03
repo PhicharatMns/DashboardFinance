@@ -10,9 +10,9 @@ import {
   Tooltip,
   Legend,
 } from "chart.js";
+import Riskmanagement from "../../data/Riskmanagement";
 import { Doughnut, Line } from "react-chartjs-2";
 import { DoughnutChart } from "./DoughnitChart";
-
 
 // import faker from "faker";
 
@@ -118,7 +118,57 @@ export default function Pageกราฟเเละกําไร() {
               );
             })}
           </div>
-
+          <div className="grid grid-cols-3 gap-5 pt-3">
+            <div className=" text-center border border-violet-500 rounded-2xl pt-3">
+              <div className="grid grid-cols-6 p-3 border-b border-violet-500 sticky top-0 bg-black">
+                <div>
+                  <p>ชื่อ</p>
+                </div>
+                <div>
+                  <p>Yeasr1</p>
+                </div>
+                <div>
+                  <p>Yeasr5</p>
+                </div>
+                <div>
+                  <p>Yeasr10</p>
+                </div>
+                <div>
+                  <p>Yeasr15</p>
+                </div>
+                <div>
+                  <p>Yeasr20</p>
+                </div>
+              </div>
+              <div className="overflow-auto h-50">
+                {Riskmanagement.map((event, index) => {
+                  return (
+                    <div>
+                      {" "}
+                      <div className="grid grid-cols-6 p-4  border-b border-violet-500">
+                        <div>{event.id}</div>
+                        <div>{event.Yeasr1}</div>
+                        <div>{event.Yeasr5}</div>
+                        <div>{event.Yeasr10}</div>
+                        <div>{event.Yeasr15}</div>
+                        <div>{event.Yeasr20}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="border col-span-2 rounded-xl border-violet-500 h-75 overflow-auto">
+              {Riskmanagement.map((event, index) => {
+                return (
+                  <div className="flex flex-row sm:items-start p-5 border-b border-violet-500">
+                    <div className="w-fit sm:w-1/5">{event.id}</div>
+                    <div className="w-fit sm:w-4/5">{event.about.description}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>
